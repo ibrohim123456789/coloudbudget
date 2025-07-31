@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+   text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p,a,ul,li{
+    margin: 0;
+    padding: 0;  
+    list-style: none;
+    box-sizing: border-box;
+   text-decoration: none;
+}
+/* ***************************************************************************************************** */
+/* HEADER START */
+/* ***************************************************************************************************** */
+.header{
+    width: 100%;
+    background: url(../img/header1.jpg) no-repeat center/cover;
+}
+
+
+.class{
+    background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
+    padding-bottom: 187px;
+}
+.nav-link{
+  color: #ffffff;  
+}
+.navbar-brend{
+ color: #ffffff;
+font-size: 18px;
+font-weight: 700;
+text-align: left;
+}
+.header h1{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 257px;
+}
+.header p{
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 39px;
+}
+.aaa{
+  text-align: center;
+  color: rgba(255, 0, 0, 0.883);
+  margin: auto;
+  display: block;
+  margin-top: 100px      
+}
+ 
+.aaa:hover{
+    background: #ffffff;
+    color: #ED4C5C;
+    border-radius: 6px;
+    width: 160px;
+    height: 50px;
+    transition: 0.3s; 
+    
+     
+}
+/* *************************************************************************************************************** */
+/* SECTION START */
+/* *************************************************************************************************************** */
+
+
+
+.section{
+    background: white;
+}
+.section h2{
+   font-size: 36px;
+   font-weight: 600;
+   margin-right: 60px;
+   margin-top: 140px;
+}
+.section p{
+   font-size: 14px;
+   font-weight: 400;
+   justify-content: start;
+   align-items: start; 
+   margin-top: 24px;
+}
+.section .img{
+ position: absolute;
+    z-index: unset;
+    padding-left: 100px;
+    margin: auto;
+}
+.section .src{
+position: relative;
+z-index: inherit;
+}
+.section .fff{
+    position: relative;
+    z-index: inherit;
+    margin-top: 120px;
+}
+ 
+.fff i{
+    position: absolute; 
+    top:  0;
+    left: -48px;
+    font-size:24px; 
+    color: white;
+    z-index: 5;
+    border-radius: 200px;
+    background: #ED4C5C;
+
+    margin-top: 120px;
+    margin-left: 40px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section .music{
+    position: absolute;
+    top:  0;
+    left: 0;
+    width: 100px;
+    background: #ffffff;
+    margin-top: 100px;
+    
+}
+.learn-more{
+    color: red;
+    background: #ffffff;
+    margin-top: 50px;
+    margin: auto;
+    transition: 0.3s; 
+} 
+  
+.menu{
+  background: #FAFAFA;
+  width: 100%;
+  padding: 100px;
+  padding-top: 100px;
+}
+ .menu h3{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+}
+.menu img{
+    width: 100%;
+    margin-top: 50px;
+}
+.h3{
+   margin-top: 63px; 
+}
+
+.div{
+    position: relative;
+}
+
+.div .box{
+    position: absolute;
+    background: #ffffff;
+    bottom: -100px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -5%);
+    border-radius: 20px;
+    box-shadow: 0 0 15px 0 #000;
+    width: 293px;
+}
+ .div .box h3{
+    font-size: 18px;
+    text-align: center;
+    padding: 40px;
+}
+.div .box p{
+    font-size: 12px;
+    text-align: center;
+    padding: 20px;
+}
+.div .box a{
+    color: #ED4C5C;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 12px;
+    padding: 5px;
+}
+.div .box a:hover{
+    background: #000;
+    color: #ffffff;
+    border-radius: 50px;
+    transition: 0.3s; 
+}
+
+
+/* ************************************************************************************************************* */
+/* MAIN START */
+/* ************************************************************************************************************* */
+
+
+.part{
+    width: 100%;
+    background: #ffffff;
+     
+}
+ .part h4{
+    color: #000000;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 63px;
+}
+.col-lg-3 img{
+     margin: auto;
+     display: block;
+     font-size: 100px;
+     margin-top: 70px;
+}
+.col-lg-3 .index{
+    position: relative;
+}
+.box{
+    position: absolute;
+    bottom: -100px;
+}
+.box img{
+    margin: auto;
+    padding: -100px;
+}
+.box h5{
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+}
+.computer{
+    width: 100%;
+    background: #ED4C5C;
+    margin-top: 200px;
+    padding: 95px 0px;
+}
+.col-lg-6 h6{
+    color: #ffffff;
+    font-size: 36px;
+    padding-top: 122px;
+}
+.col-lg-6 .ppp{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+.col-lg-6 img{
+    padding-top: 40px;
+    padding-bottom: 111px;
+}
+.ibrohim{
+    position: relative;
+}
+.ibrohim img{
+  padding-left: 100px;
+}
+
+/* ************************************************************************************************************ */
+/* FOOTER START */
+/* ************************************************************************************************************ */
+
+
+
+.footer{
+    width: 100%;
+    background: #ffffff;
+    padding: 90px 0px;
+}
+.footer .h6{
+    color: #000;
+    font-size: 36px;
+}
+.footer p{
+    margin-top: 96px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 117px;
+    padding-left: 100px;
+}
+.form .text{
+    border-radius: 10px;
+    width: 255px;
+    height: 60px;
+    padding: 30px;
+    margin-bottom: 24px;
+    border: 1px solid black;
+}
+.form .type{
+    width:100%;
+    height: 60px;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 24px;
+    border: 1px solid black;
+}
+.form .x{
+    display: flex;
+    justify-content: space-between;
+}
+.form button{
+    color: #ffffff;
+  background: #ED4C5C;
+  width: 160px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.form button:hover{
+    background: #ffffff;
+    color: #ED4C5C;
+    transition: 0.3s;
+}
+.fast{
+   width: 100%;
+   background: #FAFAFA;
+   padding: 120px;
+}
+.col-lg-3 .hhh{
+    color: #000;
+    font-size: 18px;
+}
+.col-lg-3 li a{
+    margin: auto;
+    color: #000;
+    font-size: 12px;
+}
+ 
